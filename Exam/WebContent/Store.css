@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6fd7dc;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.navbar h3 {
+    margin: 0;
+    font-size: 24px;
+    text-align:center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a#Cart {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a#Cart .fa {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+
+.filter {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.categories{
+    margin-right: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.categories select{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    width: 80%;
+    cursor:pointer
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(25% - 20px); 
+}
+
+.item-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.item-card button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item-card button:hover {
+    background-color: #0056b3;
+}
+
+
+.item-card img {
+    width: 100px;
+    height: 150px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.title {
+    text-align: center;
+    margin: 0 auto;
+}
